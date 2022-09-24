@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 public class Resource {
     private String reference;
     private String authResource;
+    @JsonIgnore
     private String resourceType;
     @JsonIgnore
     private String value;
