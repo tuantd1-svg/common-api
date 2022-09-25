@@ -1,6 +1,7 @@
 package com.example.commonapi.parameter.enumable;
 
 import lombok.Getter;
+import lombok.Setter;
 
 public enum EStatus {
     INIT_RESOURCE(0, "init resource"),
@@ -14,7 +15,8 @@ public enum EStatus {
     private String message;
 
     EStatus(int code, String message) {
-        code = code;
-        message = message;
+        this.code = code;
+        this.message = message;
     }
+
 }

@@ -21,6 +21,9 @@ public class RegisterUser {
     private ELanguage language;
     private ESend DefaultSendNotification;
     private String address;
+    private Boolean isActive;
+    private Boolean isLocked;
+    private Boolean isDelete;
     private Date createdDate;
 
 }
