@@ -8,7 +8,6 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 public class TransactionInfo {
     private Integer ErrCode;
     private String ErrMsg;
