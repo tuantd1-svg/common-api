@@ -17,8 +17,9 @@ public class JwtRDto {
     private String reference;
     private String email;
     private List<String> roles;
-    private boolean isActive;
-    private boolean isDelete;
-    private boolean isLocked;
+    private Boolean isActive;
+    private Boolean isDelete;
+    private Boolean isLocked;
+    private Boolean isResetPassword;
     private String token;
 }
